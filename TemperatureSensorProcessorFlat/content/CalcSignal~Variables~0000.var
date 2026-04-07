@@ -1,0 +1,17 @@
+{ CustomGroupDefinition('a876649c-90f8-452b-ae4b-de9618a0c73f', 'local') }
+{ CustomGroupDefinition('355e0dcc-e622-4bfa-9d8b-0cf6011b0c0f', 'inputs') }
+{ CustomGroupDefinition('e0252e44-3604-41c9-8554-62d35434505e', 'outputs') }
+
+VAR
+    sum : REAL { CustomGroupReference('a876649c-90f8-452b-ae4b-de9618a0c73f') } {Id('ffbdeae5-7d57-4ed6-8863-220f1a5edc02')};
+    maxTemp : REAL { CustomGroupReference('a876649c-90f8-452b-ae4b-de9618a0c73f') } {Id('8d76b83f-f6ce-4410-81a3-d3688b008871')};
+    i : INT { CustomGroupReference('a876649c-90f8-452b-ae4b-de9618a0c73f') } {Id('5be428f9-8bd5-4e56-b3c2-20355462dfa5')};
+END_VAR
+
+VAR_INPUT
+    buffer : T_Buffer { CustomGroupReference('355e0dcc-e622-4bfa-9d8b-0cf6011b0c0f') } {Id('5acd9f07-411b-4a66-a40a-3e4cc42ff046')};
+END_VAR
+
+VAR
+    result : T_SIGNAL_STATISTIC { CustomGroupReference('e0252e44-3604-41c9-8554-62d35434505e') } {Id('c71a2754-a4a8-499f-9880-28e64cf51f92')};
+END_VAR

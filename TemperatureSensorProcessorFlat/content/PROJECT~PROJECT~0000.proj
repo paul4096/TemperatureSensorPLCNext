@@ -227,7 +227,18 @@
       </Folder>
       <Folder Include="Logic Analyzer">
          <Id>c1a75ff1-6d30-4eda-9503-a80eb4cf804f</Id>
+         <FolderType></FolderType>
          <ParentIndex>5</ParentIndex>
+      </Folder>
+      <Folder Include="Logical Elements\FB_SensorProcessor.pou\PushInternalData.method">
+         <Id>42603a20-5a8b-4b53-89f0-de1e4e71677f</Id>
+         <FolderType>MethodFolder</FolderType>
+         <ParentIndex>9</ParentIndex>
+      </Folder>
+      <Folder Include="Logical Elements\FB_SensorProcessor.pou\CalcSignalStatistics.method">
+         <Id>ef58fd86-d383-47f6-bd50-d03497b92f64</Id>
+         <FolderType>MethodFolder</FolderType>
+         <ParentIndex>10</ParentIndex>
       </Folder>
    </ItemGroup>
    <ItemGroup>
@@ -256,6 +267,18 @@
       <CodeWorksheet Include="Logic Analyzer\Document.lga">
          <Id>639c02bf-57a8-432e-83f3-f5082fe052f1</Id>
          <ParentIndex>0</ParentIndex>
+      </CodeWorksheet>
+      <CodeWorksheet Include="Logical Elements\FB_SensorProcessor.pou\PushInternalData.method\Code.st">
+         <Id>be578037-77d0-437f-9460-8c78b520b435</Id>
+         <Extension>.st</Extension>
+         <Type>.st</Type>
+         <ParentIndex>2</ParentIndex>
+      </CodeWorksheet>
+      <CodeWorksheet Include="Logical Elements\FB_SensorProcessor.pou\CalcSignalStatistics.method\Code.st">
+         <Id>d9f286cf-6291-4b9c-88b8-5f85e2e4fe64</Id>
+         <Extension>.st</Extension>
+         <Type>.st</Type>
+         <ParentIndex>2</ParentIndex>
       </CodeWorksheet>
    </ItemGroup>
    <ItemGroup>
@@ -421,7 +444,7 @@
          <Visible>True</Visible>
          <ParentIndex>1</ParentIndex>
       </DataTypeWorksheet>
-      <DataTypeWorksheet Include="Logical Elements\DataTypes.dt">
+      <DataTypeWorksheet Include="Logical Elements\SignalDataTypes.dt">
          <Id>308365e0-e4d1-479d-a71e-056ba80f0f26</Id>
          <ParentIndex>3</ParentIndex>
       </DataTypeWorksheet>
@@ -632,6 +655,16 @@
       </VariableWorksheet>
       <VariableWorksheet Include="RecycleBin\1bfdcf9e-29f4-4070-8c87-8202d5658bcc\przetworz.method\Variables.var">
          <Id>dc6d04d5-cad7-4ad9-a92a-8ce86d4601cc</Id>
+         <Extension>.var</Extension>
+         <ParentIndex>1</ParentIndex>
+      </VariableWorksheet>
+      <VariableWorksheet Include="Logical Elements\FB_SensorProcessor.pou\PushInternalData.method\Variables.var">
+         <Id>5735dfd9-e5b7-470f-87da-0fd74d22b2a6</Id>
+         <Extension>.var</Extension>
+         <ParentIndex>1</ParentIndex>
+      </VariableWorksheet>
+      <VariableWorksheet Include="Logical Elements\FB_SensorProcessor.pou\CalcSignalStatistics.method\Variables.var">
+         <Id>ffc20837-06af-4a16-8898-3fa9820f15a7</Id>
          <Extension>.var</Extension>
          <ParentIndex>1</ParentIndex>
       </VariableWorksheet>
@@ -902,11 +935,48 @@
          <Extension>.meta</Extension>
          <ParentIndex>0</ParentIndex>
       </MetadataDocument>
+      <MetadataDocument Include="Logical Elements\FB_SensorProcessor.pou\PushInternalData.method\Metadata.meta">
+         <Id>ba83ca98-26d6-4ba4-9d2b-288475c0a772</Id>
+         <Extension>.meta</Extension>
+         <ParentIndex>0</ParentIndex>
+      </MetadataDocument>
+      <MetadataDocument Include="Logical Elements\FB_SensorProcessor.pou\CalcSignalStatistics.method\Metadata.meta">
+         <Id>3aaa79b4-4218-4ae0-ae56-ba11429ee840</Id>
+         <Extension>.meta</Extension>
+         <ParentIndex>0</ParentIndex>
+      </MetadataDocument>
    </ItemGroup>
    <ItemGroup>
       <RestoreDocument Include="RecycleBin\1bfdcf9e-29f4-4070-8c87-8202d5658bcc\1bfdcf9e-29f4-4070-8c87-8202d5658bcc">
          <Id>a258fcb6-791b-42f6-a61a-c796a00e3247</Id>
          <ParentIndex>1</ParentIndex>
       </RestoreDocument>
+   </ItemGroup>
+   <ItemGroup>
+      <SolutionReference Include="Modbus_TCP_16">
+         <Id>4353d173-cea6-444b-9844-ac932eef8970</Id>
+         <HintPath>$(LibrariesPath)\Modbus_TCP_16.pcwlx</HintPath>
+         <LibraryId>f34eebb4-84e1-449a-9a3a-0a56efc194f4</LibraryId>
+         <Signature>gFlRxgjK3Lkj2kGuFtl0yWmVfTg=</Signature>
+         <ParentIndex>0</ParentIndex>
+      </SolutionReference>
+      <SolutionReference Include="Modbus">
+         <Id>a492c325-6383-43a2-b9d8-d9401ff80490</Id>
+         <HintPath>$(SystemLibrariesPath)\Modbus.pcwlx</HintPath>
+         <LibraryId>fce4e66f-2838-414b-aca8-50a170712d60</LibraryId>
+         <ParentIndex>1</ParentIndex>
+      </SolutionReference>
+      <SolutionReference Include="ModbusET">
+         <Id>a6fa8172-bdee-49ee-b1c7-d497c8e9d39c</Id>
+         <HintPath>$(SystemLibrariesPath)\ModbusET.pcwlx</HintPath>
+         <LibraryId>4f289c18-00b9-4247-a6f6-1e359f0f2133</LibraryId>
+         <ParentIndex>2</ParentIndex>
+      </SolutionReference>
+      <SolutionReference Include="PLCnext Controller">
+         <Id>c274a0c5-45f4-47e5-91de-8dc5468ed40a</Id>
+         <HintPath>$(SystemLibrariesPath)\PLCnext Controller.pcwlx</HintPath>
+         <LibraryId>6bdddd6e-fe52-4478-94e4-617f2ff7e643</LibraryId>
+         <ParentIndex>3</ParentIndex>
+      </SolutionReference>
    </ItemGroup>
 </Project>

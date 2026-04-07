@@ -1,7 +1,13 @@
 { CustomGroupDefinition('a04e0da4-75a3-431c-a769-2ffcda83b779', '') }
 
 VAR
-    arrSensory : T_TablicaSensorow { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('2aa7ea7b-9e5f-4416-9418-ff203daa838f')};
+    arrSensory : T_SensorArray { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('2aa7ea7b-9e5f-4416-9418-ff203daa838f')};
     fbProcessor : FB_SensorProcessor { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('cf73e8fe-ea4d-452f-9027-460d9604c0d4')};
     i : INT { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('a37bd15f-a2c2-4398-a3c5-9efe332c90ee')};
+    tcpClient : MB_TCP_Client_9 { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('bd015b1a-7c68-452f-b44f-cedbecdb8ae2')};
+    tcpFun3 : MB_TCP_FC3_3 { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('e32d09bb-43ed-4cf5-ba00-62c78284d50d')};
+END_VAR
+
+VAR CONSTANT
+    TEST_CONSTANT : INT := INT#120 { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('c3041d20-1d99-4c75-8032-0d1b97810068')};
 END_VAR

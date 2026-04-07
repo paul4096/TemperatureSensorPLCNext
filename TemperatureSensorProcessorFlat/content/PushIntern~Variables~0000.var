@@ -1,0 +1,13 @@
+{ CustomGroupDefinition('90e94a7d-244e-498e-9b41-1c1165bed39c', 'input') }
+{ CustomGroupDefinition('a198e255-8453-4155-a604-91627aebe630', 'locals') }
+{ CustomGroupDefinition('3aa294b4-551e-4ee2-8664-8abd5e1722fc', 'output') }
+
+VAR_INPUT
+    newSample : REAL { CustomGroupReference('90e94a7d-244e-498e-9b41-1c1165bed39c') } {Id('79bbadbc-8cba-4e06-b6e6-0f96c5fcc5c1')};
+    buffer : T_Buffer { CustomGroupReference('90e94a7d-244e-498e-9b41-1c1165bed39c') } {Id('758514fd-4cc1-42eb-865c-c06e3aeb6913')};
+END_VAR
+
+VAR
+    i : INT { CustomGroupReference('a198e255-8453-4155-a604-91627aebe630') } {Id('5ca9feec-dbcb-4ae0-a693-3bdc2fbd233e')};
+    resultBuffer : T_Buffer { CustomGroupReference('3aa294b4-551e-4ee2-8664-8abd5e1722fc') } {Id('52626cde-eb48-4b36-82d0-408fc1321ced')};
+END_VAR

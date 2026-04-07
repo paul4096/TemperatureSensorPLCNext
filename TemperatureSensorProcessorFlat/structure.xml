@@ -92,7 +92,7 @@
     </folder>
     <folder name="Logical Elements">
       <file name="GeneratedDataTypes.dt" id="Logical E~GeneratedD~0000.dt" />
-      <file name="DataTypes.dt" id="Logical El~DataTypes~0000.dt" />
+      <file name="SignalDataTypes.dt" id="Logical E~SignalData~0000.dt" />
       <folder name="HelpTemplate">
         <file name="collapse_toggle.png" id="HelpTempl~collapse_t~0000.png" />
         <file name="image.png" id="HelpTemplate~image~0000.png" />
@@ -120,6 +120,16 @@
         <file name="Variables.var.locres" id="FB_Sensor~Variables.~0000.locres" />
         <file name="User.locres" id="FB_SensorProces~User~0000.locres" />
         <file name="Code.st" id="FB_SensorProces~Code~0000.st" />
+        <folder name="PushInternalData.method">
+          <file name="Metadata.meta" id="PushInterna~Metadata~0000.meta" />
+          <file name="Variables.var" id="PushIntern~Variables~0000.var" />
+          <file name="Code.st" id="PushInternalDat~Code~0000.st" />
+        </folder>
+        <folder name="CalcSignalStatistics.method">
+          <file name="Metadata.meta" id="CalcSignalS~Metadata~0000.meta" />
+          <file name="Variables.var" id="CalcSignal~Variables~0000.var" />
+          <file name="Code.st" id="CalcSignalStati~Code~0000.st" />
+        </folder>
       </folder>
     </folder>
     <folder name="Watch Window">

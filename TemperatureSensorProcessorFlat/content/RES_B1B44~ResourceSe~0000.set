@@ -5,7 +5,7 @@ RESOURCE IEC 61131-3
     Name := 'RES_B1B44E56492F4CD1ABB08C10641DE620',
     Parent := ( Name := 'AXCF1152', Version := '2025.0.0'), 
     UpdateType := 'Manual',
-    CommunicationMetadata := 'UniqueId=TcpIp_Simulation;IsBackup=',
+    CommunicationMetadata := 'UniqueId=TcpIp_Simulation',
     CommunicationParameters := 'DLL socomm.dll -ip0.0.0.0 -p41100 -to2000',
     CommunicationType := 'TcpIp',
     DownloadFiles := 

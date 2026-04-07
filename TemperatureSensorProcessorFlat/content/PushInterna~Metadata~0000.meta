@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Metadata>
+   <FolderType>MethodFolder</FolderType>
+   <ContentType>Method</ContentType>
+   <Kind>Method</Kind>
+   <ReturnType>T_Buffer</ReturnType>
+   <AccessSpecifier>PRIVATE</AccessSpecifier>
+   <Id>42603a20-5a8b-4b53-89f0-de1e4e71677f</Id>
+   <ItemGroup>
+      <VariableWorksheet>
+         <Id>5735dfd9-e5b7-470f-87da-0fd74d22b2a6</Id>
+      </VariableWorksheet>
+      <CodeWorksheet Include="Code.st">
+         <Id>be578037-77d0-437f-9460-8c78b520b435</Id>
+         <Extension>.st</Extension>
+         <Type>.st</Type>
+         <ParentIndex>0</ParentIndex>
+      </CodeWorksheet>
+   </ItemGroup>
+</Metadata>
