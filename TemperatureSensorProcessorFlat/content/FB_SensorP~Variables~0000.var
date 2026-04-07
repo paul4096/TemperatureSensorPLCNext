@@ -10,8 +10,5 @@ END_VAR
 VAR
     statistics : T_SIGNAL_STATISTIC { CustomGroupReference('8dd4d9a2-b1ab-4417-ac47-d85828327f3d') } {Id('03b7a075-763e-4dde-951e-f4db6884fc33')};
     fbgetTime : TIME { CustomGroupReference('33e2115a-979b-491d-9926-07cb349a9438') } {Id('2603d67b-3809-4214-a59f-dfc1c87753f4')};
-END_VAR
-
-VAR_EXTERNAL
-    IDG_CurrentTimeUTC : LINT { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('fcc1eeb3-0880-4d9b-ad70-328510433d02')};
+    PBCL_DateTimeGet_11 : PBCL_DateTimeGet_1 { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('a477ba57-bc26-4345-bf28-9d97d4177962')};
 END_VAR

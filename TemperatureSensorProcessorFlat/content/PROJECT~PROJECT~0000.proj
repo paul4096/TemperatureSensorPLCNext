@@ -200,7 +200,7 @@
       <Folder Include="RecycleBin">
          <Id>d0e2557e-5a0b-4476-af94-0cdf9c877ee5</Id>
          <FolderType>RecycleBin</FolderType>
-         <LastestItemNo>3</LastestItemNo>
+         <LastestItemNo>4</LastestItemNo>
          <Visible>false</Visible>
          <ParentIndex>0</ParentIndex>
       </Folder>
@@ -208,7 +208,7 @@
          <Id>712b50b3-31b1-4b0d-aaf6-1d35c66adb55</Id>
          <FolderType>RecycleBinItem</FolderType>
          <ItemNo>1</ItemNo>
-         <ParentIndex>2</ParentIndex>
+         <ParentIndex>3</ParentIndex>
       </Folder>
       <Folder Include="RecycleBin\1bfdcf9e-29f4-4070-8c87-8202d5658bcc\przetworz.method">
          <Id>1bfdcf9e-29f4-4070-8c87-8202d5658bcc</Id>
@@ -239,7 +239,7 @@
          <Id>3ba71678-4b9b-4a26-ac18-9e07ff8020c0</Id>
          <FolderType>RecycleBinItem</FolderType>
          <ItemNo>2</ItemNo>
-         <ParentIndex>1</ParentIndex>
+         <ParentIndex>2</ParentIndex>
       </Folder>
       <Folder Include="Logical Elements\IncrementCounter.pou">
          <Id>ea4ad5cb-6e5c-401e-a32e-38c096198510</Id>
@@ -251,7 +251,7 @@
          <Id>f45fe491-adda-4611-871b-def86aede03a</Id>
          <FolderType>RecycleBinItem</FolderType>
          <ItemNo>3</ItemNo>
-         <ParentIndex>0</ParentIndex>
+         <ParentIndex>1</ParentIndex>
       </Folder>
       <Folder Include="RecycleBin\01c9fe98-b259-488b-952c-e6411acb2743\AXL_F_AI4_I_1H">
          <Id>01c9fe98-b259-488b-952c-e6411acb2743</Id>
@@ -262,6 +262,28 @@
          <TypeName>AXL F AI4 I 1H</TypeName>
          <TypeRevision>01/1.00</TypeRevision>
          <ParentIndex>0</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin\574041f0-fe54-400a-9c02-7b1ad6f7b00e">
+         <Id>ca16bb49-46f1-4b4d-9191-15a03ff1f063</Id>
+         <FolderType>RecycleBinItem</FolderType>
+         <ItemNo>4</ItemNo>
+         <ParentIndex>0</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin\574041f0-fe54-400a-9c02-7b1ad6f7b00e\NewFunction.pou">
+         <Id>574041f0-fe54-400a-9c02-7b1ad6f7b00e</Id>
+         <FolderType>PouFolder</FolderType>
+         <ReturnType>BOOL</ReturnType>
+         <ParentIndex>0</ParentIndex>
+      </Folder>
+      <Folder Include="Logical Elements\FB_SensorProcessor.pou\LdtToLint.method">
+         <Id>e0673c3a-4509-42ab-baa3-ae9a1011b276</Id>
+         <FolderType>MethodFolder</FolderType>
+         <ParentIndex>11</ParentIndex>
+      </Folder>
+      <Folder Include="Logical Elements\FB_SensorProcessor.pou\GetDateTime.method">
+         <Id>609bd914-51ef-4dfb-95fd-5a643ebd8f26</Id>
+         <FolderType>MethodFolder</FolderType>
+         <ParentIndex>12</ParentIndex>
       </Folder>
    </ItemGroup>
    <ItemGroup>
@@ -314,6 +336,18 @@
          <Extension>.st</Extension>
          <Type>.st</Type>
          <ParentIndex>5</ParentIndex>
+      </CodeWorksheet>
+      <CodeWorksheet Include="Logical Elements\FB_SensorProcessor.pou\LdtToLint.method\Code.st">
+         <Id>f5635e69-4afa-47fb-97be-c1cecc71c858</Id>
+         <Extension>.st</Extension>
+         <Type>.st</Type>
+         <ParentIndex>2</ParentIndex>
+      </CodeWorksheet>
+      <CodeWorksheet Include="Logical Elements\FB_SensorProcessor.pou\GetDateTime.method\Code.st">
+         <Id>95e76fc1-2b5c-4b11-b5d5-475996245078</Id>
+         <Extension>.st</Extension>
+         <Type>.st</Type>
+         <ParentIndex>2</ParentIndex>
       </CodeWorksheet>
    </ItemGroup>
    <ItemGroup>
@@ -414,6 +448,11 @@
          <Extension>.usermeta</Extension>
          <ParentIndex>2</ParentIndex>
       </UserMetadata>
+      <UserMetadata Include="RecycleBin\574041f0-fe54-400a-9c02-7b1ad6f7b00e\NewFunction.pou\VersionHistory.usermeta">
+         <Id>fceda664-47eb-4183-8fec-4b97932c7764</Id>
+         <Extension>.usermeta</Extension>
+         <ParentIndex>2</ParentIndex>
+      </UserMetadata>
    </ItemGroup>
    <ItemGroup>
       <UserMetadataDescription Include="Hardware\Description.en.html">
@@ -460,6 +499,16 @@
       </UserMetadataDescription>
       <UserMetadataDescription Include="Logical Elements\IncrementCounter.pou\Description.rtf">
          <Id>4f0090de-c686-4d0d-9b06-110914eacceb</Id>
+         <Extension>.rtf</Extension>
+         <ParentIndex>4</ParentIndex>
+      </UserMetadataDescription>
+      <UserMetadataDescription Include="RecycleBin\574041f0-fe54-400a-9c02-7b1ad6f7b00e\NewFunction.pou\Description.html">
+         <Id>2b03d97d-0528-4140-b3c8-70c6a2950fde</Id>
+         <Extension>.html</Extension>
+         <ParentIndex>3</ParentIndex>
+      </UserMetadataDescription>
+      <UserMetadataDescription Include="RecycleBin\574041f0-fe54-400a-9c02-7b1ad6f7b00e\NewFunction.pou\Description.rtf">
+         <Id>3e94ac67-38e4-4d75-aa2c-e17bf6364501</Id>
          <Extension>.rtf</Extension>
          <ParentIndex>4</ParentIndex>
       </UserMetadataDescription>
@@ -748,6 +797,21 @@
       </VariableWorksheet>
       <VariableWorksheet Include="Logical Elements\IncrementCounter.pou\Variables.var">
          <Id>21ffaf6b-d67b-4bc3-a0d7-16a76e2587b2</Id>
+         <Extension>.var</Extension>
+         <ParentIndex>1</ParentIndex>
+      </VariableWorksheet>
+      <VariableWorksheet Include="RecycleBin\574041f0-fe54-400a-9c02-7b1ad6f7b00e\NewFunction.pou\Variables.var">
+         <Id>cb249367-4208-4a5f-ad8e-ba08ec5aaa15</Id>
+         <Extension>.var</Extension>
+         <ParentIndex>1</ParentIndex>
+      </VariableWorksheet>
+      <VariableWorksheet Include="Logical Elements\FB_SensorProcessor.pou\LdtToLint.method\Variables.var">
+         <Id>1e69542f-5a41-4cd0-a865-c5b0ae21f9f2</Id>
+         <Extension>.var</Extension>
+         <ParentIndex>1</ParentIndex>
+      </VariableWorksheet>
+      <VariableWorksheet Include="Logical Elements\FB_SensorProcessor.pou\GetDateTime.method\Variables.var">
+         <Id>39b4499b-f83b-4170-a46b-1285a89e5c0b</Id>
          <Extension>.var</Extension>
          <ParentIndex>1</ParentIndex>
       </VariableWorksheet>
@@ -1066,6 +1130,21 @@
          <Extension>.meta</Extension>
          <ParentIndex>0</ParentIndex>
       </MetadataDocument>
+      <MetadataDocument Include="RecycleBin\574041f0-fe54-400a-9c02-7b1ad6f7b00e\NewFunction.pou\Metadata.meta">
+         <Id>50cee806-f0ca-48eb-964d-aa954df253ae</Id>
+         <Extension>.meta</Extension>
+         <ParentIndex>0</ParentIndex>
+      </MetadataDocument>
+      <MetadataDocument Include="Logical Elements\FB_SensorProcessor.pou\LdtToLint.method\Metadata.meta">
+         <Id>13f55d93-365d-4d62-9664-5cd1564318c0</Id>
+         <Extension>.meta</Extension>
+         <ParentIndex>0</ParentIndex>
+      </MetadataDocument>
+      <MetadataDocument Include="Logical Elements\FB_SensorProcessor.pou\GetDateTime.method\Metadata.meta">
+         <Id>d07d6575-aeb2-4506-ac39-913ab9da582f</Id>
+         <Extension>.meta</Extension>
+         <ParentIndex>0</ParentIndex>
+      </MetadataDocument>
    </ItemGroup>
    <ItemGroup>
       <RestoreDocument Include="RecycleBin\1bfdcf9e-29f4-4070-8c87-8202d5658bcc\1bfdcf9e-29f4-4070-8c87-8202d5658bcc">
@@ -1080,15 +1159,12 @@
          <Id>95760a02-bfc9-4e68-9f10-36f810fc1e76</Id>
          <ParentIndex>1</ParentIndex>
       </RestoreDocument>
+      <RestoreDocument Include="RecycleBin\574041f0-fe54-400a-9c02-7b1ad6f7b00e\574041f0-fe54-400a-9c02-7b1ad6f7b00e">
+         <Id>f69fe034-3b27-4e9c-9ff2-88192f2ff7fe</Id>
+         <ParentIndex>1</ParentIndex>
+      </RestoreDocument>
    </ItemGroup>
    <ItemGroup>
-      <SolutionReference Include="Modbus_TCP_16">
-         <Id>4353d173-cea6-444b-9844-ac932eef8970</Id>
-         <HintPath>$(LibrariesPath)\Modbus_TCP_16.pcwlx</HintPath>
-         <LibraryId>f34eebb4-84e1-449a-9a3a-0a56efc194f4</LibraryId>
-         <Signature>gFlRxgjK3Lkj2kGuFtl0yWmVfTg=</Signature>
-         <ParentIndex>0</ParentIndex>
-      </SolutionReference>
       <SolutionReference Include="Modbus">
          <Id>a492c325-6383-43a2-b9d8-d9401ff80490</Id>
          <HintPath>$(SystemLibrariesPath)\Modbus.pcwlx</HintPath>
@@ -1107,17 +1183,11 @@
          <LibraryId>6bdddd6e-fe52-4478-94e4-617f2ff7e643</LibraryId>
          <ParentIndex>3</ParentIndex>
       </SolutionReference>
-      <SolutionReference Include="PLCnextBase">
-         <Id>4c9af308-f990-4f5d-a5ad-023673d23f75</Id>
-         <HintPath>$(SystemLibrariesPath)\PLCnextBase.pcwlx</HintPath>
-         <LibraryId>0ac86f41-e1a6-4a74-88c5-77df5440c474</LibraryId>
+      <SolutionReference Include="PLCnextBase_1_6_3">
+         <Id>3d8da751-eec1-43ad-a668-cff67539ae3b</Id>
+         <HintPath>$(LibrariesPath)\PLCnextBase_1_6_3.pcwlx</HintPath>
+         <LibraryId>95764212-177c-4d59-bcc6-293a2b6579a2</LibraryId>
          <ParentIndex>4</ParentIndex>
-      </SolutionReference>
-      <SolutionReference Include="PLCnextBaseServices">
-         <Id>cdb833f7-d74f-4c76-b17e-794f95814486</Id>
-         <HintPath>$(SystemLibrariesPath)\PLCnextBaseServices.pcwlx</HintPath>
-         <LibraryId>1b2fb207-2a1a-4004-af1c-f6095cf0a6a2</LibraryId>
-         <ParentIndex>5</ParentIndex>
       </SolutionReference>
    </ItemGroup>
    <ItemGroup>

@@ -6,7 +6,7 @@ END_IF
 ioSensor.InternalData.FIFOBuffer:=THIS.PushInternalData(ioSensor.InputData.newValue,ioSensor.InternalData.FIFOBuffer);
 // 2. Czas (użycie systemowego czasu PLCnext)
 // Uwaga: Wymaga podpięcia zmiennej systemowej lub użycia RTC
-//ioSensor.InternalData.timestamp := fbgetTime;
+ioSensor.InternalData.timestamp := THIS.LdtToLint(THIS.GetDateTime());
 
 // 3. Obliczenia
 statistics := THIS.CalcSignalStatistics(ioSensor.InternalData.FIFOBuffer);

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Metadata>
+   <FolderType>MethodFolder</FolderType>
+   <ContentType>Method</ContentType>
+   <Kind>Method</Kind>
+   <ReturnType>LDATE_AND_TIME</ReturnType>
+   <AccessSpecifier>PUBLIC</AccessSpecifier>
+   <Id>609bd914-51ef-4dfb-95fd-5a643ebd8f26</Id>
+   <ItemGroup>
+      <VariableWorksheet>
+         <Id>39b4499b-f83b-4170-a46b-1285a89e5c0b</Id>
+      </VariableWorksheet>
+      <CodeWorksheet Include="Code.st">
+         <Id>95e76fc1-2b5c-4b11-b5d5-475996245078</Id>
+         <Extension>.st</Extension>
+         <Type>.st</Type>
+         <ParentIndex>0</ParentIndex>
+      </CodeWorksheet>
+   </ItemGroup>
+</Metadata>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LogicAnalyzer>
+   <Memento Name="Chart"><![CDATA[{"FitToView":true,"Frozen":false,"LabelFormat":0,"AxisPlacement":0,"AllowPanAndZoom":false,"DefaultSampleRate":50.0,"SyncTask":"MyProgram"}]]></Memento>
+   <Memento Name="TriggerSettings"><![CDATA[{"Operation":0,"OperandOneType":1,"OperandOneValue":"","OperandTwoType":1,"OperandTwoValue":"","SynchronizationTask":"MyProgram","SynchronizationTaskTriggered":"MyProgram","PreCycles":100,"PostCycles":200}]]></Memento>
+   <Memento Name="Series"><![CDATA[{"SeriesMementos":[]}]]></Memento>
+</LogicAnalyzer>

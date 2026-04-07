@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Metadata>
+   <FolderType>PouFolder</FolderType>
+   <ContentType>Function</ContentType>
+   <Kind>Function</Kind>
+   <ReturnType>BOOL</ReturnType>
+   <Usings></Usings>
+   <Id>574041f0-fe54-400a-9c02-7b1ad6f7b00e</Id>
+   <ItemGroup>
+      <VariableWorksheet>
+         <Id>cb249367-4208-4a5f-ad8e-ba08ec5aaa15</Id>
+      </VariableWorksheet>
+   </ItemGroup>
+</Metadata>
