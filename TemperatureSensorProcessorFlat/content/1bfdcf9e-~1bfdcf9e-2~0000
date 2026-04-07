@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RestoreDataItem Version="1" DeletionDate="2026-04-03 17:01:50Z" DisplayName="przetworz">
+    <NodeData DomainId="e639c0f9-db09-46f4-abf7-50216a13f220" SolutionId="606e2993-1c57-411c-b0d2-c57a13c52bbf" NodeId="1bfdcf9e-29f4-4070-8c87-8202d5658bcc" ParentId="d55b55b0-0952-425d-a4f4-1b7fc788b0c6" PredecessorId="1978cb1c-c7ef-4fcf-861c-a55961b2d1f7" Position="5" Kind="Type" />
+</RestoreDataItem>

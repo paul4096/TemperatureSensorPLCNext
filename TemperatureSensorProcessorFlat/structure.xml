@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<content>
+  <file_system name="Safety" id="Safety~0000" />
+  <file name="StorageProperties.xml" id="StorageProperties~0000.xml" />
+  <file name="StorageContent.xml" id="StorageContent~0000.xml" />
+  <folder name="PROJECT">
+    <file name="PROJECT.proj" id="PROJECT~PROJECT~0000.proj" />
+    <folder name="Hardware">
+      <file name="e6eafbbb-0bd3-46cf-a2a6-dea6a196606e.DataLink" id="Hardware~e6eafbbb-0b~0000.DataLink" />
+      <file name="e6eafbbb-0bd3-46cf-a2a6-dea6a196606e.Transport" id="Hardware~e6eafbbb-0b~0001.Transport" />
+      <file name="VersionHistory.usermeta" id="Hardware~VersionHist~0000.usermeta" />
+      <file name="Description.en.html" id="Hardware~Description~0000.html" />
+      <file name="e6eafbbb-0bd3-46cf-a2a6-dea6a196606e.projset" id="Hardware~e6eafbbb-0b~0002.projset" />
+      <folder name="CFG_E6E7139888194D3794336F149E6C82AE">
+        <file name="PlmConfiguration.plmc" id="CFG_E6E71~PlmConfigu~0000.plmc" />
+        <file name="97251f73-cf7c-423c-810d-86adbb1b43ef.ds" id="CFG_E6E71~97251f73-c~0000.ds" />
+        <file name="DownloadSecuritySettings.dss" id="CFG_E6E71~DownloadSe~0000.dss" />
+        <file name="DataList.dl" id="CFG_E6E7139~DataList~0000.dl" />
+        <folder name="PLCnext">
+          <file name="EsmConfiguration.esmc" id="PLCnext~EsmConfigura~0000.esmc" />
+        </folder>
+        <folder name="RES_B1B44E56492F4CD1ABB08C10641DE620">
+          <file name="DataList.dlr4var" id="RES_B1B44E5~DataList~0000.dlr4var" />
+          <file name="IOConfiguration.ioc" id="RES_B1B44~IOConfigur~0000.ioc" />
+          <file name="ResourceSettings.set" id="RES_B1B44~ResourceSe~0000.set" />
+          <file name="GlobalVariables.var" id="RES_B1B44~GlobalVari~0000.var" />
+          <file name="Arp.Plc.Eclr.acf.config" id="RES_B1B44~Arp.Plc.Ec~0000.config" />
+        </folder>
+        <folder name="EIP_Master">
+          <file name="Arp.Io.EthernetIP.acf.config" id="EIP_Maste~Arp.Io.Eth~0000.config" />
+        </folder>
+        <folder name="HMI_Server">
+          <file name="DataList.dlr4hmi" id="HMI_Server~DataList~0000.dlr4hmi" />
+          <file name="Arp.Services.Ehmi.acf.config" id="HMI_Serve~Arp.Servic~0000.config" />
+          <folder name="Application">
+            <file name="Variables.hmivar" id="Applicatio~Variables~0000.hmivar" />
+            <file name="Navigation.hminav" id="Applicati~Navigation~0000.hminav" />
+          </folder>
+        </folder>
+        <folder name="ALARM_Server">
+          <file name="Arp.Services.AlarmServer.acf.config" id="ALARM_Ser~Arp.Servic~0000.config" />
+          <file name="Alarms.almwrk" id="ALARM_Server~Alarms~0000.almwrk" />
+        </folder>
+        <folder name="PN_Master">
+          <file name="Arp.Io.PnC.acf.config" id="PN_Master~Arp.Io.PnC~0000.config" />
+          <file name="97251f73-cf7c-423c-810d-86adbb1b43ef.L7_4_PN_Master.station" id="PN_Master~97251f73-c~0000.station" />
+          <file name="97251f73-cf7c-423c-810d-86adbb1b43ef.L7_4_InterfaceListDocument.station" id="PN_Master~97251f73-c~0001.station" />
+        </folder>
+        <folder name="AXLF_Master">
+          <file name="Arp.Io.AxlC.acf.config" id="AXLF_Mast~Arp.Io.Axl~0000.config" />
+          <file name="97251f73-cf7c-423c-810d-86adbb1b43ef.L7_ax_AXLF_Master.station" id="AXLF_Mast~97251f73-c~0000.station" />
+          <folder name="AXL_F_AI4_I_1H">
+            <file name="c2983a80-d1d9-473f-8d90-c90756a40cbe.ds" id="AXL_F_AI4~c2983a80-d~0000.ds" />
+          </folder>
+        </folder>
+        <folder name="IB_Master">
+          <file name="Arp.Io.IbM.acf.config" id="IB_Master~Arp.Io.IbM~0000.config" />
+          <file name="97251f73-cf7c-423c-810d-86adbb1b43ef.L7_8_IB_Master.station" id="IB_Master~97251f73-c~0000.station" />
+        </folder>
+        <folder name="ComponentTypes">
+          <folder name="Arp.Plc.Eclr.EclrComponent">
+            <file name="Arp.Plc.Eclr.libmeta" id="Arp.Plc.E~Arp.Plc.Ec~0000.libmeta" />
+            <file name="EclrComponent.compmeta" id="Arp.Plc.E~EclrCompon~0000.compmeta" />
+          </folder>
+          <folder name="Arp.Io.EthernetIP.ControllerComponent">
+            <file name="Arp.Io.EthernetIP.libmeta" id="Arp.Io.Et~Arp.Io.Eth~0000.libmeta" />
+            <file name="ControllerComponent.compmeta" id="Arp.Io.Et~Controller~0000.compmeta" />
+          </folder>
+          <folder name="Arp.Plc.Ehmi.EhmiComponent">
+            <file name="Arp.Plc.Ehmi.libmeta" id="Arp.Plc.E~Arp.Plc.Eh~0000.libmeta" />
+            <file name="EhmiComponent.compmeta" id="Arp.Plc.E~EhmiCompon~0000.compmeta" />
+          </folder>
+          <folder name="Arp.Plc.Alarm.AlarmProgram">
+            <file name="Arp.Plc.Alarm.libmeta" id="Arp.Plc.A~Arp.Plc.Al~0000.libmeta" />
+            <file name="AlarmProgram.compmeta" id="Arp.Plc.A~AlarmProgr~0000.compmeta" />
+            <file name="AlarmProgram.progmeta" id="Arp.Plc.A~AlarmProgr~0001.progmeta" />
+          </folder>
+          <folder name="Arp.Io.Pn.ControllerComponent">
+            <file name="Arp.Io.Pn.libmeta" id="Arp.Io.Pn.~Arp.Io.Pn~0000.libmeta" />
+            <file name="ControllerComponent.compmeta" id="Arp.Io.Pn~Controller~0000.compmeta" />
+          </folder>
+          <folder name="Arp.Io.Axl.ControllerComponent">
+            <file name="Arp.Io.Axl.libmeta" id="Arp.Io.Ax~Arp.Io.Axl~0000.libmeta" />
+            <file name="ControllerComponent.compmeta" id="Arp.Io.Ax~Controller~0000.compmeta" />
+          </folder>
+          <folder name="Arp.Io.Ib.ControllerComponent">
+            <file name="Arp.Io.Ib.libmeta" id="Arp.Io.Ib.~Arp.Io.Ib~0000.libmeta" />
+            <file name="ControllerComponent.compmeta" id="Arp.Io.Ib~Controller~0000.compmeta" />
+          </folder>
+        </folder>
+      </folder>
+    </folder>
+    <folder name="Logical Elements">
+      <file name="GeneratedDataTypes.dt" id="Logical E~GeneratedD~0000.dt" />
+      <file name="DataTypes.dt" id="Logical El~DataTypes~0000.dt" />
+      <folder name="HelpTemplate">
+        <file name="collapse_toggle.png" id="HelpTempl~collapse_t~0000.png" />
+        <file name="image.png" id="HelpTemplate~image~0000.png" />
+        <file name="Styles.css" id="HelpTemplate~Styles~0000.css" />
+        <file name="TemplateFunction.htm" id="HelpTempl~TemplateFu~0000.htm" />
+        <file name="TemplateFunctionBlock.htm" id="HelpTempl~TemplateFu~0001.htm" />
+        <file name="TemplateOverview.htm" id="HelpTempl~TemplateOv~0000.htm" />
+      </folder>
+      <folder name="MyProgram.pou">
+        <file name="Metadata.meta" id="MyProgram.p~Metadata~0000.meta" />
+        <file name="Variables.var" id="MyProgram.~Variables~0000.var" />
+        <file name="VersionHistory.usermeta" id="MyProgram~VersionHis~0000.usermeta" />
+        <file name="Description.html" id="MyProgram~Descriptio~0000.html" />
+        <file name="Description.rtf" id="MyProgram~Descriptio~0001.rtf" />
+        <file name="Variables.var.locres" id="MyProgram~Variables.~0000.locres" />
+        <file name="User.locres" id="MyProgram.pou~User~0000.locres" />
+        <file name="Code.st" id="MyProgram.pou~Code~0000.st" />
+      </folder>
+      <folder name="FB_SensorProcessor.pou">
+        <file name="Metadata.meta" id="FB_SensorPr~Metadata~0000.meta" />
+        <file name="Variables.var" id="FB_SensorP~Variables~0000.var" />
+        <file name="VersionHistory.usermeta" id="FB_Sensor~VersionHis~0000.usermeta" />
+        <file name="Description.html" id="FB_Sensor~Descriptio~0000.html" />
+        <file name="Description.rtf" id="FB_Sensor~Descriptio~0001.rtf" />
+        <file name="Variables.var.locres" id="FB_Sensor~Variables.~0000.locres" />
+        <file name="User.locres" id="FB_SensorProces~User~0000.locres" />
+        <file name="Code.st" id="FB_SensorProces~Code~0000.st" />
+      </folder>
+    </folder>
+    <folder name="Watch Window">
+      <file name="Document.ww" id="Watch Windo~Document~0000.ww" />
+    </folder>
+    <folder name="RecycleBin">
+      <folder name="1bfdcf9e-29f4-4070-8c87-8202d5658bcc">
+        <file name="1bfdcf9e-29f4-4070-8c87-8202d5658bcc" id="1bfdcf9e-~1bfdcf9e-2~0000" />
+        <folder name="przetworz.method">
+          <file name="Metadata.meta" id="przetworz.m~Metadata~0000.meta" />
+          <file name="Variables.var" id="przetworz.~Variables~0000.var" />
+          <file name="Code.st" id="przetworz.metho~Code~0000.st" />
+        </folder>
+      </folder>
+    </folder>
+  </folder>
+</content>

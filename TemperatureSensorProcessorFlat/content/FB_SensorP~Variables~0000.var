@@ -1,0 +1,15 @@
+{ CustomGroupDefinition('8dd4d9a2-b1ab-4417-ac47-d85828327f3d', '') }
+
+VAR_IN_OUT
+    ioSensor : ST_Sensor { CustomGroupReference('8dd4d9a2-b1ab-4417-ac47-d85828327f3d') } {Id('6f30dded-3821-4eb8-b797-44749b35b795')};
+END_VAR
+
+VAR
+    i : INT { CustomGroupReference('8dd4d9a2-b1ab-4417-ac47-d85828327f3d') } {Id('37d6034a-73d4-43b2-9d33-b38293a47581')};
+    suma : REAL { CustomGroupReference('8dd4d9a2-b1ab-4417-ac47-d85828327f3d') } {Id('887a78ff-beec-44bb-a470-e9fd1f419b53')};
+    maxTemp : REAL { CustomGroupReference('8dd4d9a2-b1ab-4417-ac47-d85828327f3d') } {Id('998f568d-d9b6-46e0-a7f9-c03e2cc746a7')};
+END_VAR
+
+VAR_EXTERNAL
+    IDG_CurrentTimeUTC : LINT { CustomGroupReference('8dd4d9a2-b1ab-4417-ac47-d85828327f3d') } {Id('672ada15-387d-44d9-88ee-8a43504f31ce')};
+END_VAR

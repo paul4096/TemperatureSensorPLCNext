@@ -1,0 +1,7 @@
+{ CustomGroupDefinition('a04e0da4-75a3-431c-a769-2ffcda83b779', '') }
+
+VAR
+    arrSensory : T_TablicaSensorow { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('2aa7ea7b-9e5f-4416-9418-ff203daa838f')};
+    fbProcessor : FB_SensorProcessor { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('cf73e8fe-ea4d-452f-9027-460d9604c0d4')};
+    i : INT { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('a37bd15f-a2c2-4398-a3c5-9efe332c90ee')};
+END_VAR

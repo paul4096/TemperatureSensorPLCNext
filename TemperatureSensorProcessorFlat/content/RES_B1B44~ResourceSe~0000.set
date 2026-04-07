@@ -1,0 +1,41 @@
+{ Type('AXCF1152') }
+RESOURCE IEC 61131-3
+{ DeviceProfileWorksheet('DeviceProfile', Id := '4f37d068-6247-41c7-a84e-c890a1a06d7f') }
+{ DeviceProfile(
+    Name := 'RES_B1B44E56492F4CD1ABB08C10641DE620',
+    Parent := ( Name := 'AXCF1152', Version := '2025.0.0'), 
+    UpdateType := 'Manual',
+    CommunicationMetadata := 'UniqueId=TcpIp_Simulation;IsBackup=',
+    CommunicationParameters := 'DLL socomm.dll -ip0.0.0.0 -p41100 -to2000',
+    CommunicationType := 'TcpIp',
+    DownloadFiles := 
+    [
+    ],
+    FilesIni := 
+    [
+    ],
+    SimulationMode :=
+    (
+        DeviceDescription := 
+        (
+            MaxProgramSize := '8388608',
+            MaxDataSize := '33554424',
+            MaxRetainDataSize := '0',
+            MaxTaskPriority := '95',
+            Endianness := 'LittleEndian'
+        ),
+        DownloadFiles := 
+        [
+        ],
+        FilesIni := 
+        [
+        ]
+    )
+)}
+
+
+TASK MyProgram (INTERVAL := T#100ms, PRIORITY := 0) { Watchdog(T#100ms), Id('5be39097-8458-46b7-83ba-5801743134d5') };
+
+PROGRAM MyProgramInstance WITH MyProgram : MyProgram { Id('ab87e6cf-1559-4646-ba0d-0de28f5f67df') };
+
+END_RESOURCE
