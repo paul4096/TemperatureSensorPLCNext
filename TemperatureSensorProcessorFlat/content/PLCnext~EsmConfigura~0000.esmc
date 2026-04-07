@@ -9,8 +9,5 @@
 				<ProgramInstance id="ab87e6cf-1559-4646-ba0d-0de28f5f67df" name="MyProgramInstance" programType="MyProgram" componentId="00000000-0000-0000-0000-000000000000" libraryName="Arp.Plc.Eclr" componentName="Arp.Plc.Eclr" componentType="EclrComponent" comment="" readonly="False" groupName="" />
 			</ProgramInstances>
 		</Task>
-		<Task id="de36fd18-5357-42d8-b831-43f8dc55b83c" name="modbus" taskType="CyclicTask" priority="0" intervalTime="100000000" watchdogTime="100000000" executionTimeThreshold="0" coreAffinity="0" stackSize="0" taskBuffer="None" comment="" esmId="0e8ff3d1-270f-4103-9451-cb7cfc55222d" readonly="False">
-			<ProgramInstances />
-		</Task>
 	</Tasks>
 </EsmConfiguration>

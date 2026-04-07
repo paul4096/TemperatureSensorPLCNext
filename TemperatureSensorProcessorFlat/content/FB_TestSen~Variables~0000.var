@@ -1,0 +1,15 @@
+{ CustomGroupDefinition('eff3ee06-4c8c-4054-8723-d9d8db2ec8c3', 'input') }
+{ CustomGroupDefinition('1c8061f5-4f38-4999-8179-ef079df2b53f', 'local') }
+{ CustomGroupDefinition('0dc7c081-52c3-403d-b0b7-766ecfb9856a', 'output') }
+
+VAR_INPUT
+    sensorIndex : INT { CustomGroupReference('eff3ee06-4c8c-4054-8723-d9d8db2ec8c3') } {Id('feeb7239-cf8e-4178-9cda-bc1ab1865a11')};
+END_VAR
+
+VAR
+    i : T_arrayOfInt9 { CustomGroupReference('1c8061f5-4f38-4999-8179-ef079df2b53f') } {Id('d89a20bd-d298-4487-8d97-9b520b1bb264')};
+END_VAR
+
+VAR_OUTPUT
+    result : ST_InputData { CustomGroupReference('0dc7c081-52c3-403d-b0b7-766ecfb9856a') } {Id('62faee3d-bea6-4e34-94bc-871b136113d8')};
+END_VAR

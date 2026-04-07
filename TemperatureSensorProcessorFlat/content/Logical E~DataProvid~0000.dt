@@ -1,0 +1,3 @@
+TYPE
+ T_ArrayOfInt9:ARRAY [0..9] OF INT;
+END_TYPE

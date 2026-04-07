@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RestoreDataItem Version="1" DeletionDate="2026-04-04 12:10:25Z" DisplayName="SensorInputData">
+    <NodeData DomainId="e639c0f9-db09-46f4-abf7-50216a13f220" SolutionId="606e2993-1c57-411c-b0d2-c57a13c52bbf" NodeId="5f6112f6-0f84-420d-9846-df0b7b5fdbb0" ParentId="d31eab2b-b1a0-4c93-bdaf-090bc38c49f4" PredecessorId="7efa3637-2943-4ba7-8d72-b92bbb84517e" Position="6" Kind="Type" />
+</RestoreDataItem>

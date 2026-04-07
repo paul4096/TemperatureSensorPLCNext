@@ -1,13 +1,36 @@
-{ CustomGroupDefinition('a04e0da4-75a3-431c-a769-2ffcda83b779', '') }
+{ CustomGroupDefinition('217634af-d371-422c-9460-17242128b1f3', 'MODBUS') }
+{ CustomGroupDefinition('d12b5f3d-2528-4541-90aa-d48c4399e900', 'DataProvider') }
+{ CustomGroupDefinition('a04e0da4-75a3-431c-a769-2ffcda83b779', 'Sensors') }
+{ CustomGroupDefinition('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24', 'Default') }
 
 VAR
-    arrSensory : T_SensorArray { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('2aa7ea7b-9e5f-4416-9418-ff203daa838f')};
+    tcpClient : MB_TCP_Client_9 { CustomGroupReference('217634af-d371-422c-9460-17242128b1f3') } {Id('bd015b1a-7c68-452f-b44f-cedbecdb8ae2')};
+    tcpFun3 : MB_TCP_FC3_3 { CustomGroupReference('217634af-d371-422c-9460-17242128b1f3') } {Id('e32d09bb-43ed-4cf5-ba00-62c78284d50d')};
+    fbDataProvider : FB_TestSensorDataProvider { CustomGroupReference('d12b5f3d-2528-4541-90aa-d48c4399e900') } {Id('9868c455-6ea3-4849-a709-372c4cb5c997')};
+    sensorIndex : INT { CustomGroupReference('d12b5f3d-2528-4541-90aa-d48c4399e900') } {Id('b2ab4faf-e734-4a18-8a5f-ddf5e74727b2')};
+    delayCounter : INT { CustomGroupReference('d12b5f3d-2528-4541-90aa-d48c4399e900') } {Id('184bfec4-7790-49f4-b579-d4437c1bd7a7')};
+    Sensors : T_SensorArray { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('2aa7ea7b-9e5f-4416-9418-ff203daa838f')};
     fbProcessor : FB_SensorProcessor { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('cf73e8fe-ea4d-452f-9027-460d9604c0d4')};
     i : INT { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('a37bd15f-a2c2-4398-a3c5-9efe332c90ee')};
-    tcpClient : MB_TCP_Client_9 { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('bd015b1a-7c68-452f-b44f-cedbecdb8ae2')};
-    tcpFun3 : MB_TCP_FC3_3 { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('e32d09bb-43ed-4cf5-ba00-62c78284d50d')};
 END_VAR
 
-VAR CONSTANT
-    TEST_CONSTANT : INT := INT#120 { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('c3041d20-1d99-4c75-8032-0d1b97810068')};
+VAR_EXTERNAL
+    RTC : RTC_TYPE { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('c9de57f4-75e7-43a4-99d7-92304713c38c')};
+END_VAR
+
+VAR
+    DAY : INT { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('b61ada32-dd9a-4336-9539-3c746e8b2745')};
+    MONTH : INT { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('7ddc5d69-94ed-4c27-b4ad-235607f3be34')};
+END_VAR
+
+VAR_EXTERNAL
+    fbGetTime : TIME { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('1991e569-a464-4b54-81d0-3d61eedf2514')};
+END_VAR
+
+VAR
+    timestamp : LINT { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('f4919ae2-08a4-4dfd-891e-c86afe94b66e')};
+END_VAR
+
+VAR_EXTERNAL
+    IDG_CurrentTimeUTC : LINT { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('f052609f-f1ea-451c-bd07-81973080b3bc')};
 END_VAR

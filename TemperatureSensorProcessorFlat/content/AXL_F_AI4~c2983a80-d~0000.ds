@@ -9,7 +9,7 @@
     <InstVal xPath="Generic:FormattedTypeNameWithoutVersion" Type="System.String">AXL F AI4 I 1H</InstVal>
     <InstVal xPath="Generic:FormattedTypeName" Type="System.String">AXL F AI4 I 1H Rev. &gt;= 01/1.00</InstVal>
     <InstVal xPath="AutomationML:DeviceItemId" Type="System.String">48e2cf1d-356f-4cfc-9ccc-19d628f386b2</InstVal>
-    <InstVal xPath="//Layer7[@uID='L7_1']/InstanceObjList/Obj[@uID='axlfd00' type='AXLF:ConsecutiveNumber']" Type="Ade.Fdcml.Core.Signed32">1</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/InstanceObjList/Obj[@uID='axlfd00' type='AXLF:ConsecutiveNumber']" Type="Ade.Fdcml.Core.Signed32">0</InstVal>
     <InstVal xPath="//Layer7[@uID='L7_1']/InstanceObjList/Obj[@uID='axlfd01' type='AXLF:NodeID']" Type="Ade.Fdcml.Core.Unsigned32">0</InstVal>
     <InstVal xPath="//Layer7[@uID='L7_1']/ParaList/Para[@uID='bp14']/Current" Type="Ade.Fdcml.Core.StringAscii"></InstVal>
     <InstVal xPath="//Layer7[@uID='L7_1']/ParaList/Para[@uID='bp15']/Current" Type="Ade.Fdcml.Core.StringAscii"></InstVal>

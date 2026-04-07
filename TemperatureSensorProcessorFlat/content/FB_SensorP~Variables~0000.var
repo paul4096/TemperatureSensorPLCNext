@@ -1,6 +1,7 @@
 { CustomGroupDefinition('eccdb65a-21d4-4fee-83a4-793220d2b773', 'Input/Output') }
 { CustomGroupDefinition('8dd4d9a2-b1ab-4417-ac47-d85828327f3d', 'local') }
 { CustomGroupDefinition('33e2115a-979b-491d-9926-07cb349a9438', 'external') }
+{ CustomGroupDefinition('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24', 'Default') }
 
 VAR_IN_OUT
     ioSensor : ST_Sensor { CustomGroupReference('eccdb65a-21d4-4fee-83a4-793220d2b773') } {Id('6f30dded-3821-4eb8-b797-44749b35b795')};
@@ -8,8 +9,9 @@ END_VAR
 
 VAR
     statistics : T_SIGNAL_STATISTIC { CustomGroupReference('8dd4d9a2-b1ab-4417-ac47-d85828327f3d') } {Id('03b7a075-763e-4dde-951e-f4db6884fc33')};
+    fbgetTime : TIME { CustomGroupReference('33e2115a-979b-491d-9926-07cb349a9438') } {Id('2603d67b-3809-4214-a59f-dfc1c87753f4')};
 END_VAR
 
 VAR_EXTERNAL
-    IDG_CurrentTimeUTC : LINT { CustomGroupReference('33e2115a-979b-491d-9926-07cb349a9438') } {Id('672ada15-387d-44d9-88ee-8a43504f31ce')};
+    IDG_CurrentTimeUTC : LINT { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('fcc1eeb3-0880-4d9b-ad70-328510433d02')};
 END_VAR
