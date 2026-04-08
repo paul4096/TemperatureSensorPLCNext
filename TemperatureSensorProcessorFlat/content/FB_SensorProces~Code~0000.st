@@ -1,14 +1,10 @@
 IF not ioSensor.InputData.canWrite THEN
     RETURN;
 END_IF
-
-// 1. FIFO
 ioSensor.InternalData.FIFOBuffer:=THIS.PushInternalData(ioSensor.InputData.newValue,ioSensor.InternalData.FIFOBuffer);
-// 2. Czas (użycie systemowego czasu PLCnext)
-// Uwaga: Wymaga podpięcia zmiennej systemowej lub użycia RTC
-ioSensor.InternalData.timestamp := THIS.LdtToLint(THIS.GetDateTime());
 
-// 3. Obliczenia
+ioSensor.InternalData.timestamp := THIS.GetTimestamp();
+
 statistics := THIS.CalcSignalStatistics(ioSensor.InternalData.FIFOBuffer);
 ioSensor.InternalData.isMaxSample := statistics.isMaxSample;
 ioSensor.InternalData.isAboveAvg := statistics.isAboveAvg;

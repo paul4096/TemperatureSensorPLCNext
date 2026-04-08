@@ -1,0 +1,7 @@
+{ CustomGroupDefinition('929375e0-1d90-426a-a6dd-07d7d92718e5', '') }
+
+VAR
+    timestamp : LINT { CustomGroupReference('929375e0-1d90-426a-a6dd-07d7d92718e5') } {Id('f9337f52-4b4f-4006-9abb-56a4a3740ce7')};
+    DateTimeTmp : LDATE_AND_TIME { CustomGroupReference('929375e0-1d90-426a-a6dd-07d7d92718e5') } {Id('e6f348ba-8c21-42f8-a74c-531d369bdb0f')};
+    milis : INT { CustomGroupReference('929375e0-1d90-426a-a6dd-07d7d92718e5') } {Id('1d20f3ca-8099-4a42-95c4-52c2e9177d21')};
+END_VAR

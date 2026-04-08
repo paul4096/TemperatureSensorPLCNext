@@ -3,15 +3,15 @@
    <FolderType>MethodFolder</FolderType>
    <ContentType>Method</ContentType>
    <Kind>Method</Kind>
-   <ReturnType>LDATE_AND_TIME</ReturnType>
+   <ReturnType>LINT</ReturnType>
    <AccessSpecifier>PUBLIC</AccessSpecifier>
-   <Id>609bd914-51ef-4dfb-95fd-5a643ebd8f26</Id>
+   <Id>7547a414-4490-47c3-9a7d-76c7b32f5f2d</Id>
    <ItemGroup>
       <VariableWorksheet>
-         <Id>39b4499b-f83b-4170-a46b-1285a89e5c0b</Id>
+         <Id>ca8b182f-2cab-4a6f-98d4-50099b246d3b</Id>
       </VariableWorksheet>
       <CodeWorksheet Include="Code.st">
-         <Id>95e76fc1-2b5c-4b11-b5d5-475996245078</Id>
+         <Id>dadb32cf-fd4d-4217-a7be-af199054bc99</Id>
          <Extension>.st</Extension>
          <Type>.st</Type>
          <ParentIndex>0</ParentIndex>

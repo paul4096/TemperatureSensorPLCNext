@@ -5,5 +5,8 @@
     <folder name="Inventories">
       <file name="SafetyInventory.xml" id="Inventori~SafetyInve~0000.xml" />
     </folder>
+    <folder name="Logical Elements">
+      <folder name="FB_SensorProcessor.pou" />
+    </folder>
   </folder>
 </content>

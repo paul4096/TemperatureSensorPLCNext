@@ -1,5 +1,0 @@
-{ CustomGroupDefinition('b4b59aaa-5299-460d-b8ed-a48c74197342', '') }
-
-VAR
-    DateTimeTmp : LDATE_AND_TIME { CustomGroupReference('b4b59aaa-5299-460d-b8ed-a48c74197342') } {Id('457ef483-c8b4-4623-934f-3f120938879c')};
-END_VAR
