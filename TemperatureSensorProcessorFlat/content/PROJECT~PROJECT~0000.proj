@@ -1004,24 +1004,6 @@
       </MetadataDocument>
    </ItemGroup>
    <ItemGroup>
-      <SolutionReference Include="Modbus">
-         <Id>a492c325-6383-43a2-b9d8-d9401ff80490</Id>
-         <HintPath>$(SystemLibrariesPath)\Modbus.pcwlx</HintPath>
-         <LibraryId>fce4e66f-2838-414b-aca8-50a170712d60</LibraryId>
-         <ParentIndex>1</ParentIndex>
-      </SolutionReference>
-      <SolutionReference Include="ModbusET">
-         <Id>a6fa8172-bdee-49ee-b1c7-d497c8e9d39c</Id>
-         <HintPath>$(SystemLibrariesPath)\ModbusET.pcwlx</HintPath>
-         <LibraryId>4f289c18-00b9-4247-a6f6-1e359f0f2133</LibraryId>
-         <ParentIndex>2</ParentIndex>
-      </SolutionReference>
-      <SolutionReference Include="PLCnext Controller">
-         <Id>c274a0c5-45f4-47e5-91de-8dc5468ed40a</Id>
-         <HintPath>$(SystemLibrariesPath)\PLCnext Controller.pcwlx</HintPath>
-         <LibraryId>6bdddd6e-fe52-4478-94e4-617f2ff7e643</LibraryId>
-         <ParentIndex>3</ParentIndex>
-      </SolutionReference>
       <SolutionReference Include="PLCnextBase_1_6_3">
          <Id>3d8da751-eec1-43ad-a668-cff67539ae3b</Id>
          <HintPath>$(LibrariesPath)\PLCnextBase_1_6_3.pcwlx</HintPath>
