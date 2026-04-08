@@ -3,7 +3,7 @@
    <FolderType>MethodFolder</FolderType>
    <ContentType>Method</ContentType>
    <Kind>Method</Kind>
-   <ReturnType>T_SIGNAL_STATISTIC</ReturnType>
+   <ReturnType>ST_SignalStatistic</ReturnType>
    <AccessSpecifier>PRIVATE</AccessSpecifier>
    <Id>ef58fd86-d383-47f6-bd50-d03497b92f64</Id>
    <ItemGroup>

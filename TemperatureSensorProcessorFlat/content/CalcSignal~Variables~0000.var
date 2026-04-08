@@ -10,8 +10,9 @@ END_VAR
 
 VAR_INPUT
     buffer : T_Buffer { CustomGroupReference('355e0dcc-e622-4bfa-9d8b-0cf6011b0c0f') } {Id('5acd9f07-411b-4a66-a40a-3e4cc42ff046')};
+    lastSample : REAL { CustomGroupReference('355e0dcc-e622-4bfa-9d8b-0cf6011b0c0f') } {Id('6b3113eb-db27-40f6-a32e-59165eefd8db')};
 END_VAR
 
 VAR
-    result : T_SIGNAL_STATISTIC { CustomGroupReference('e0252e44-3604-41c9-8554-62d35434505e') } {Id('c71a2754-a4a8-499f-9880-28e64cf51f92')};
+    result : ST_SignalStatistic { CustomGroupReference('e0252e44-3604-41c9-8554-62d35434505e') } {Id('c71a2754-a4a8-499f-9880-28e64cf51f92')};
 END_VAR

@@ -161,52 +161,6 @@
     <folder name="Watch Window">
       <file name="Document.ww" id="Watch Windo~Document~0000.ww" />
     </folder>
-    <folder name="RecycleBin">
-      <folder name="1bfdcf9e-29f4-4070-8c87-8202d5658bcc">
-        <file name="1bfdcf9e-29f4-4070-8c87-8202d5658bcc" id="1bfdcf9e-~1bfdcf9e-2~0000" />
-        <folder name="przetworz.method">
-          <file name="Metadata.meta" id="przetworz.m~Metadata~0000.meta" />
-          <file name="Variables.var" id="przetworz.~Variables~0000.var" />
-          <file name="Code.st" id="przetworz.metho~Code~0000.st" />
-        </folder>
-      </folder>
-      <folder name="5f6112f6-0f84-420d-9846-df0b7b5fdbb0">
-        <file name="SensorInputData.dt" id="5f6112f6-~SensorInpu~0000.dt" />
-        <file name="5f6112f6-0f84-420d-9846-df0b7b5fdbb0" id="5f6112f6-~5f6112f6-0~0000" />
-      </folder>
-      <folder name="01c9fe98-b259-488b-952c-e6411acb2743">
-        <file name="01c9fe98-b259-488b-952c-e6411acb2743" id="01c9fe98-~01c9fe98-b~0000" />
-        <folder name="AXL_F_AI4_I_1H">
-          <file name="c2983a80-d1d9-473f-8d90-c90756a40cbe.ds" id="AXL_F_AI4~c2983a80-d~0000.ds" />
-        </folder>
-      </folder>
-      <folder name="574041f0-fe54-400a-9c02-7b1ad6f7b00e">
-        <file name="574041f0-fe54-400a-9c02-7b1ad6f7b00e" id="574041f0-~574041f0-f~0000" />
-        <folder name="NewFunction.pou">
-          <file name="Metadata.meta" id="NewFunction~Metadata~0000.meta" />
-          <file name="Variables.var" id="NewFunctio~Variables~0000.var" />
-          <file name="VersionHistory.usermeta" id="NewFuncti~VersionHis~0000.usermeta" />
-          <file name="Description.html" id="NewFuncti~Descriptio~0000.html" />
-          <file name="Description.rtf" id="NewFuncti~Descriptio~0001.rtf" />
-        </folder>
-      </folder>
-      <folder name="609bd914-51ef-4dfb-95fd-5a643ebd8f26">
-        <file name="609bd914-51ef-4dfb-95fd-5a643ebd8f26" id="609bd914-~609bd914-5~0000" />
-        <folder name="GetDateTime.method">
-          <file name="Metadata.meta" id="GetDateTime~Metadata~0000.meta" />
-          <file name="Variables.var" id="GetDateTim~Variables~0000.var" />
-          <file name="Code.st" id="GetDateTime.met~Code~0000.st" />
-        </folder>
-      </folder>
-      <folder name="e0673c3a-4509-42ab-baa3-ae9a1011b276">
-        <file name="e0673c3a-4509-42ab-baa3-ae9a1011b276" id="e0673c3a-~e0673c3a-4~0000" />
-        <folder name="LdtToLint.method">
-          <file name="Metadata.meta" id="LdtToLint.m~Metadata~0000.meta" />
-          <file name="Variables.var" id="LdtToLint.~Variables~0000.var" />
-          <file name="Code.st" id="LdtToLint.metho~Code~0000.st" />
-        </folder>
-      </folder>
-    </folder>
     <folder name="Logic Analyzer">
       <file name="Document.lga" id="Logic Analy~Document~0000.lga" />
     </folder>

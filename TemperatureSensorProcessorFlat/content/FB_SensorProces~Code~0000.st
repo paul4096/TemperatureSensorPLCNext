@@ -3,12 +3,8 @@ IF not ioSensor.InputData.canWrite THEN
 END_IF
 ioSensor.InternalData.FIFOBuffer:=THIS.PushInternalData(ioSensor.InputData.newValue,ioSensor.InternalData.FIFOBuffer);
 
-ioSensor.InternalData.timestamp := THIS.GetTimestamp();
+ioSensor.InternalData.lastSampleTimestamp := THIS.GetTimestamp();
 
-statistics := THIS.CalcSignalStatistics(ioSensor.InternalData.FIFOBuffer);
-ioSensor.InternalData.isMaxSample := statistics.isMaxSample;
-ioSensor.InternalData.isAboveAvg := statistics.isAboveAvg;
-ioSensor.InternalData.deviation := statistics.deviation;
-ioSensor.InternalData.avg := statistics.avg;
+ioSensor.InternalData.lastSampleStatistics := THIS.CalcSignalStatistics(ioSensor.InternalData.FIFOBuffer,ioSensor.InputData.newValue);
 
 ioSensor.InputData.canWrite := FALSE;
