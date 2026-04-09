@@ -6,7 +6,7 @@ IF delayCounter = 0 THEN
     Sensors[sensorIndex].InputData := fbDataProvider.result;
     sensorIndex := IncrementCounter(sensorIndex,10);
 END_IF
-delayCounter := IncrementCounter(delayCounter,10);
+delayCounter := IncrementCounter(delayCounter,4);
 
 
 //Przetwarzanie probek z czujnikow przez dedykowany FB
