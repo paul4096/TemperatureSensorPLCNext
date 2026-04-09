@@ -14,8 +14,8 @@ ioSensor.InputData.canWrite := FALSE;
 //Lokalna kopia InternalData 
 internalDataLocal := ioSensor.InternalData;
 
-//Zapisanie probki do bufora probek
-THIS.PushInternalData(ioSensor.InputData.newValue);
+//Zapisanie wartosci probki do bufora
+THIS.PushToBuffer(ioSensor.InputData.newValue);
 
 //Zapisanie znacznika czasowego w ms od 01-01-1970
 internalDataLocal.lastSampleTimestamp := THIS.GetTimestamp();

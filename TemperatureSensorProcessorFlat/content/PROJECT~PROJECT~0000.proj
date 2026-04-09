@@ -202,7 +202,7 @@
          <FolderType></FolderType>
          <ParentIndex>5</ParentIndex>
       </Folder>
-      <Folder Include="Logical Elements\FB_SensorProcessor.pou\PushInternalData.method">
+      <Folder Include="Logical Elements\FB_SensorProcessor.pou\PushToBuffer.method">
          <Id>42603a20-5a8b-4b53-89f0-de1e4e71677f</Id>
          <FolderType>MethodFolder</FolderType>
          <ParentIndex>9</ParentIndex>
@@ -273,7 +273,7 @@
          <Id>639c02bf-57a8-432e-83f3-f5082fe052f1</Id>
          <ParentIndex>0</ParentIndex>
       </CodeWorksheet>
-      <CodeWorksheet Include="Logical Elements\FB_SensorProcessor.pou\PushInternalData.method\Code.st">
+      <CodeWorksheet Include="Logical Elements\FB_SensorProcessor.pou\PushToBuffer.method\Code.st">
          <Id>be578037-77d0-437f-9460-8c78b520b435</Id>
          <Extension>.st</Extension>
          <Type>.st</Type>
@@ -691,7 +691,7 @@
          <Extension>.var</Extension>
          <ParentIndex>1</ParentIndex>
       </VariableWorksheet>
-      <VariableWorksheet Include="Logical Elements\FB_SensorProcessor.pou\PushInternalData.method\Variables.var">
+      <VariableWorksheet Include="Logical Elements\FB_SensorProcessor.pou\PushToBuffer.method\Variables.var">
          <Id>5735dfd9-e5b7-470f-87da-0fd74d22b2a6</Id>
          <Extension>.var</Extension>
          <ParentIndex>1</ParentIndex>
@@ -1016,7 +1016,7 @@
          <Extension>.meta</Extension>
          <ParentIndex>0</ParentIndex>
       </MetadataDocument>
-      <MetadataDocument Include="Logical Elements\FB_SensorProcessor.pou\PushInternalData.method\Metadata.meta">
+      <MetadataDocument Include="Logical Elements\FB_SensorProcessor.pou\PushToBuffer.method\Metadata.meta">
          <Id>ba83ca98-26d6-4ba4-9d2b-288475c0a772</Id>
          <Extension>.meta</Extension>
          <ParentIndex>0</ParentIndex>
