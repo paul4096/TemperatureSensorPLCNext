@@ -1,3 +1,6 @@
+//funkcja obliczajaca statystyki dla nowej probki wzgledem podanego bufora probek wczesniejszych
+
+//Wyznaczenie sumy probek z bufora oraz maksymalnej wartosci probki w buforze.
 sum := 0.0;
 maxTemp := -1000.0;
 FOR i := 0 TO 9 DO
@@ -7,9 +10,8 @@ FOR i := 0 TO 9 DO
     END_IF;
 END_FOR;
 
+//wyznaczenie statystyk dla bufora.
 result.avg := sum / 10.0;
-
-//calc statistics for newest sample in the buffer
 result.deviation := lastSample - result.avg;
 result.isAboveAvg := lastSample > result.avg;
 result.isMaxSample := lastSample >= maxTemp;
