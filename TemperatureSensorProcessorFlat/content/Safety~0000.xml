@@ -8,5 +8,6 @@
     <folder name="Logical Elements">
       <folder name="FB_SensorProcessor.pou" />
     </folder>
+    <folder name="RecycleBin" />
   </folder>
 </content>

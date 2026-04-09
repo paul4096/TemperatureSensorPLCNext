@@ -3,14 +3,15 @@
    <FolderType>MethodFolder</FolderType>
    <ContentType>Method</ContentType>
    <Kind>Method</Kind>
-   <AccessSpecifier>PRIVATE</AccessSpecifier>
-   <Id>ef58fd86-d383-47f6-bd50-d03497b92f64</Id>
+   <ReturnType>ST_BufferCalcResult</ReturnType>
+   <AccessSpecifier>PUBLIC</AccessSpecifier>
+   <Id>1bba06c8-29a9-4725-811c-02ad5359632b</Id>
    <ItemGroup>
       <VariableWorksheet>
-         <Id>ffc20837-06af-4a16-8898-3fa9820f15a7</Id>
+         <Id>1270ec23-ecde-401c-b488-cf5100c2e8dd</Id>
       </VariableWorksheet>
       <CodeWorksheet Include="Code.st">
-         <Id>d9f286cf-6291-4b9c-88b8-5f85e2e4fe64</Id>
+         <Id>9bbf180c-376d-47c0-a633-fd3a6ac7c015</Id>
          <Extension>.st</Extension>
          <Type>.st</Type>
          <ParentIndex>0</ParentIndex>

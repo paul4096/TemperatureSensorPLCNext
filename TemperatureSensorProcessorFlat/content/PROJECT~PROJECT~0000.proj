@@ -228,6 +228,29 @@
          <FolderType>MethodFolder</FolderType>
          <ParentIndex>11</ParentIndex>
       </Folder>
+      <Folder Include="RecycleBin">
+         <Id>0dd24978-3470-4350-91a3-a09d24aadbc4</Id>
+         <FolderType>RecycleBin</FolderType>
+         <LastestItemNo>1</LastestItemNo>
+         <Visible>false</Visible>
+         <ParentIndex>0</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin\847eb216-fc14-4fcf-b9f4-4aa40fa55601">
+         <Id>81bb7c8d-1197-4591-a1fb-cc06ceca4ad9</Id>
+         <FolderType>RecycleBinItem</FolderType>
+         <ItemNo>1</ItemNo>
+         <ParentIndex>0</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin\847eb216-fc14-4fcf-b9f4-4aa40fa55601\CalcAverage.method">
+         <Id>847eb216-fc14-4fcf-b9f4-4aa40fa55601</Id>
+         <FolderType>MethodFolder</FolderType>
+         <ParentIndex>0</ParentIndex>
+      </Folder>
+      <Folder Include="Logical Elements\FB_SensorProcessor.pou\CalcAvgAndMax.method">
+         <Id>1bba06c8-29a9-4725-811c-02ad5359632b</Id>
+         <FolderType>MethodFolder</FolderType>
+         <ParentIndex>12</ParentIndex>
+      </Folder>
    </ItemGroup>
    <ItemGroup>
       <CodeWorksheet Include="Watch Window\Document.ww">
@@ -276,6 +299,12 @@
       </CodeWorksheet>
       <CodeWorksheet Include="Logical Elements\FB_SensorProcessor.pou\GetTimestamp.method\Code.st">
          <Id>dadb32cf-fd4d-4217-a7be-af199054bc99</Id>
+         <Extension>.st</Extension>
+         <Type>.st</Type>
+         <ParentIndex>2</ParentIndex>
+      </CodeWorksheet>
+      <CodeWorksheet Include="Logical Elements\FB_SensorProcessor.pou\CalcAvgAndMax.method\Code.st">
+         <Id>9bbf180c-376d-47c0-a633-fd3a6ac7c015</Id>
          <Extension>.st</Extension>
          <Type>.st</Type>
          <ParentIndex>2</ParentIndex>
@@ -687,6 +716,16 @@
          <Extension>.var</Extension>
          <ParentIndex>1</ParentIndex>
       </VariableWorksheet>
+      <VariableWorksheet Include="RecycleBin\847eb216-fc14-4fcf-b9f4-4aa40fa55601\CalcAverage.method\Variables.var">
+         <Id>82c1e662-6909-43d5-a790-6ac9c20f1dac</Id>
+         <Extension>.var</Extension>
+         <ParentIndex>1</ParentIndex>
+      </VariableWorksheet>
+      <VariableWorksheet Include="Logical Elements\FB_SensorProcessor.pou\CalcAvgAndMax.method\Variables.var">
+         <Id>1270ec23-ecde-401c-b488-cf5100c2e8dd</Id>
+         <Extension>.var</Extension>
+         <ParentIndex>1</ParentIndex>
+      </VariableWorksheet>
    </ItemGroup>
    <ItemGroup>
       <MetaLibrary Include="Hardware\CFG_E6E7139888194D3794336F149E6C82AE\ComponentTypes\Arp.Plc.Eclr.EclrComponent\Arp.Plc.Eclr.libmeta">
@@ -1002,6 +1041,16 @@
          <Extension>.meta</Extension>
          <ParentIndex>0</ParentIndex>
       </MetadataDocument>
+      <MetadataDocument Include="RecycleBin\847eb216-fc14-4fcf-b9f4-4aa40fa55601\CalcAverage.method\Metadata.meta">
+         <Id>3e6c9a9a-3e9e-42d6-9d63-e5dcfd4d446b</Id>
+         <Extension>.meta</Extension>
+         <ParentIndex>0</ParentIndex>
+      </MetadataDocument>
+      <MetadataDocument Include="Logical Elements\FB_SensorProcessor.pou\CalcAvgAndMax.method\Metadata.meta">
+         <Id>3d77ebc1-29d3-438f-b5a2-4e72a7019bd5</Id>
+         <Extension>.meta</Extension>
+         <ParentIndex>0</ParentIndex>
+      </MetadataDocument>
    </ItemGroup>
    <ItemGroup>
       <SolutionReference Include="PLCnextBase_1_6_3">
@@ -1010,5 +1059,11 @@
          <LibraryId>95764212-177c-4d59-bcc6-293a2b6579a2</LibraryId>
          <ParentIndex>4</ParentIndex>
       </SolutionReference>
+   </ItemGroup>
+   <ItemGroup>
+      <RestoreDocument Include="RecycleBin\847eb216-fc14-4fcf-b9f4-4aa40fa55601\847eb216-fc14-4fcf-b9f4-4aa40fa55601">
+         <Id>02e1135d-95e5-44b0-9e24-c84132a68f59</Id>
+         <ParentIndex>1</ParentIndex>
+      </RestoreDocument>
    </ItemGroup>
 </Project>

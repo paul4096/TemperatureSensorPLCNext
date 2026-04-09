@@ -136,6 +136,11 @@
           <file name="Variables.var" id="GetTimesta~Variables~0000.var" />
           <file name="Code.st" id="GetTimestamp.me~Code~0000.st" />
         </folder>
+        <folder name="CalcAvgAndMax.method">
+          <file name="Metadata.meta" id="CalcAvgAndM~Metadata~0000.meta" />
+          <file name="Variables.var" id="CalcAvgAnd~Variables~0000.var" />
+          <file name="Code.st" id="CalcAvgAndMax.m~Code~0000.st" />
+        </folder>
       </folder>
       <folder name="FB_TestSensorDataProvider.pou">
         <file name="Metadata.meta" id="FB_TestSens~Metadata~0000.meta" />
@@ -163,6 +168,15 @@
     </folder>
     <folder name="Logic Analyzer">
       <file name="Document.lga" id="Logic Analy~Document~0000.lga" />
+    </folder>
+    <folder name="RecycleBin">
+      <folder name="847eb216-fc14-4fcf-b9f4-4aa40fa55601">
+        <file name="847eb216-fc14-4fcf-b9f4-4aa40fa55601" id="847eb216-~847eb216-f~0000" />
+        <folder name="CalcAverage.method">
+          <file name="Metadata.meta" id="CalcAverage~Metadata~0001.meta" />
+          <file name="Variables.var" id="CalcAverag~Variables~0001.var" />
+        </folder>
+      </folder>
     </folder>
   </folder>
 </content>

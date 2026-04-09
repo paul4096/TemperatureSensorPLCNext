@@ -1,0 +1,7 @@
+{ CustomGroupDefinition('1afe36cc-7fa3-4934-9ff1-2b3025798202', '') }
+
+VAR
+    i : INT { CustomGroupReference('1afe36cc-7fa3-4934-9ff1-2b3025798202') } {Id('a2284a73-491e-4449-b3ea-1fee115d171d')};
+    maxValue : REAL { CustomGroupReference('1afe36cc-7fa3-4934-9ff1-2b3025798202') } {Id('cfa4df42-c38f-4d12-9910-e04418eeedc6')};
+    sum : REAL { CustomGroupReference('1afe36cc-7fa3-4934-9ff1-2b3025798202') } {Id('0409362e-a915-4a19-8683-92d06506c628')};
+END_VAR

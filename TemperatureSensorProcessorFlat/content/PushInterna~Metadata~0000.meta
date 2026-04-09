@@ -3,7 +3,6 @@
    <FolderType>MethodFolder</FolderType>
    <ContentType>Method</ContentType>
    <Kind>Method</Kind>
-   <ReturnType>T_Buffer</ReturnType>
    <AccessSpecifier>PRIVATE</AccessSpecifier>
    <Id>42603a20-5a8b-4b53-89f0-de1e4e71677f</Id>
    <ItemGroup>

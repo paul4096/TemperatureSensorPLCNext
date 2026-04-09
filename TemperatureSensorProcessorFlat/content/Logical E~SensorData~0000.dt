@@ -5,9 +5,8 @@ TYPE
     END_STRUCT;
 
     ST_InternalData : STRUCT
-        FIFOBuffer : T_Buffer;
+        FIFOBuffer : ST_Buffer;
         lastSampleTimestamp : LINT;
-        lastSampleStatistics: ST_SignalStatistic;
     END_STRUCT;
 
     ST_Sensor : STRUCT
@@ -21,15 +20,26 @@ TYPE
 END_TYPE
 
 TYPE 
-    T_Buffer : ARRAY[0..9] OF REAL; 
+    ST_Buffer : STRUCT
+       samples : ARRAY[0..9] OF ST_BufferElement;
+       bufferCount: INT;
+       averageValue : REAL;
+    END_STRUCT
 END_TYPE
     
 TYPE
-    ST_SignalStatistic : STRUCT
+    ST_BufferElement : STRUCT
+        value : REAL;
         deviation : REAL;
         isAboveAvg : BOOL;
         isMaxSample : BOOL;
-        avg : REAL;
+    END_STRUCT;    
+END_TYPE
+
+TYPE 
+    ST_BufferCalcResult : STRUCT
+        average : REAL;
+        maxValue : REAL;
     END_STRUCT;
 END_TYPE
     

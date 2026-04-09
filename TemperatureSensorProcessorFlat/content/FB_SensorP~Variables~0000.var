@@ -7,4 +7,6 @@ END_VAR
 
 VAR
     PBCL_DateTimeGet_11 : PBCL_DateTimeGet_1 { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('859cf67c-5285-45f7-8bdb-44f826595684')};
+    internalDataLocal : ST_InternalData { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('662fc52f-4205-4208-897d-eda689d5dd85')};
+    bufferCalcResult : ST_BufferCalcResult { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('456b3eb1-8975-4fdb-87cf-f1ea8db6203f')};
 END_VAR
