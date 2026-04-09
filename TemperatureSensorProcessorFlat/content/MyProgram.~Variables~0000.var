@@ -1,7 +1,5 @@
-{ CustomGroupDefinition('217634af-d371-422c-9460-17242128b1f3', 'MODBUS') }
 { CustomGroupDefinition('d12b5f3d-2528-4541-90aa-d48c4399e900', 'DataProvider') }
 { CustomGroupDefinition('a04e0da4-75a3-431c-a769-2ffcda83b779', 'Sensors') }
-{ CustomGroupDefinition('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24', 'Default') }
 
 VAR
     fbDataProvider : FB_TestSensorDataProvider { CustomGroupReference('d12b5f3d-2528-4541-90aa-d48c4399e900') } {Id('9868c455-6ea3-4849-a709-372c4cb5c997')};
@@ -10,19 +8,4 @@ VAR
     Sensors : T_SensorArray { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('2aa7ea7b-9e5f-4416-9418-ff203daa838f')};
     fbProcessor : FB_SensorProcessor { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('cf73e8fe-ea4d-452f-9027-460d9604c0d4')};
     i : INT { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('a37bd15f-a2c2-4398-a3c5-9efe332c90ee')};
-END_VAR
-
-VAR_EXTERNAL
-    RTC : RTC_TYPE { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('c9de57f4-75e7-43a4-99d7-92304713c38c')};
-END_VAR
-
-VAR
-    DAY : INT { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('b61ada32-dd9a-4336-9539-3c746e8b2745')};
-    MONTH : INT { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('7ddc5d69-94ed-4c27-b4ad-235607f3be34')};
-    timestamp : LINT { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('f4919ae2-08a4-4dfd-891e-c86afe94b66e')};
-    fbGetTime1 : PBCL_DateTimeGet_1 { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('49afd72a-adfb-48fb-87c7-3eee2cf7be7e')};
-    PBCL_DateTimeGet_11 : PBCL_DateTimeGet_1 { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('93400cea-0bbb-4720-b54d-26b2cdae4a5d')};
-    testInt : INT { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('d1389e34-7034-4377-93cd-b1f062af6207')};
-    datetimeTmp : LDATE_AND_TIME { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('4e0fc44a-ec6a-41b2-9973-51ac036747cb')};
-    timeTmp : LTIME { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('a95ed683-4587-4274-95cf-6eec06b11d01')};
 END_VAR
