@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Metadata>
+   <FolderType>MethodFolder</FolderType>
+   <ContentType>Method</ContentType>
+   <Kind>Method</Kind>
+   <ReturnType>BOOL</ReturnType>
+   <AccessSpecifier>PUBLIC</AccessSpecifier>
+   <Id>102ab0c0-4607-44cc-9ad7-04d738022bdf</Id>
+   <ItemGroup>
+      <VariableWorksheet>
+         <Id>5858412e-01cf-4947-b3c3-d3f51a60c65b</Id>
+      </VariableWorksheet>
+   </ItemGroup>
+</Metadata>

@@ -23,6 +23,7 @@ TYPE
     ST_Buffer : STRUCT
        samples : ARRAY[0..9] OF ST_BufferElement;
        bufferCount: INT;
+       bufferHeadIndex: INT;
        averageValue : REAL;
     END_STRUCT
 END_TYPE

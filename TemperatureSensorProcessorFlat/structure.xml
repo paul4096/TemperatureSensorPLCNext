@@ -177,6 +177,21 @@
           <file name="Variables.var" id="CalcAverag~Variables~0001.var" />
         </folder>
       </folder>
+      <folder name="102ab0c0-4607-44cc-9ad7-04d738022bdf">
+        <file name="102ab0c0-4607-44cc-9ad7-04d738022bdf" id="102ab0c0-~102ab0c0-4~0000" />
+        <folder name="ResetBufferCountAndHead.method">
+          <file name="Metadata.meta" id="ResetBuffer~Metadata~0000.meta" />
+          <file name="Variables.var" id="ResetBuffe~Variables~0000.var" />
+        </folder>
+      </folder>
+      <folder name="596ac091-6579-4705-b113-a36cdee78d3a">
+        <file name="596ac091-6579-4705-b113-a36cdee78d3a" id="596ac091-~596ac091-6~0000" />
+        <folder name="CheckBufferCountAndHead.method">
+          <file name="Metadata.meta" id="CheckBuffer~Metadata~0000.meta" />
+          <file name="Variables.var" id="CheckBuffe~Variables~0000.var" />
+          <file name="Code.st" id="CheckBufferCoun~Code~0000.st" />
+        </folder>
+      </folder>
     </folder>
   </folder>
 </content>

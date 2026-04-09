@@ -231,7 +231,7 @@
       <Folder Include="RecycleBin">
          <Id>0dd24978-3470-4350-91a3-a09d24aadbc4</Id>
          <FolderType>RecycleBin</FolderType>
-         <LastestItemNo>1</LastestItemNo>
+         <LastestItemNo>3</LastestItemNo>
          <Visible>false</Visible>
          <ParentIndex>0</ParentIndex>
       </Folder>
@@ -239,7 +239,7 @@
          <Id>81bb7c8d-1197-4591-a1fb-cc06ceca4ad9</Id>
          <FolderType>RecycleBinItem</FolderType>
          <ItemNo>1</ItemNo>
-         <ParentIndex>0</ParentIndex>
+         <ParentIndex>2</ParentIndex>
       </Folder>
       <Folder Include="RecycleBin\847eb216-fc14-4fcf-b9f4-4aa40fa55601\CalcAverage.method">
          <Id>847eb216-fc14-4fcf-b9f4-4aa40fa55601</Id>
@@ -250,6 +250,28 @@
          <Id>1bba06c8-29a9-4725-811c-02ad5359632b</Id>
          <FolderType>MethodFolder</FolderType>
          <ParentIndex>12</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin\102ab0c0-4607-44cc-9ad7-04d738022bdf">
+         <Id>3a254ab8-8e72-4599-b8cf-af9e0142d7e7</Id>
+         <FolderType>RecycleBinItem</FolderType>
+         <ItemNo>2</ItemNo>
+         <ParentIndex>1</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin\102ab0c0-4607-44cc-9ad7-04d738022bdf\ResetBufferCountAndHead.method">
+         <Id>102ab0c0-4607-44cc-9ad7-04d738022bdf</Id>
+         <FolderType>MethodFolder</FolderType>
+         <ParentIndex>0</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin\596ac091-6579-4705-b113-a36cdee78d3a">
+         <Id>6d2e0498-76be-4e90-8d2b-83ad0ebc3b70</Id>
+         <FolderType>RecycleBinItem</FolderType>
+         <ItemNo>3</ItemNo>
+         <ParentIndex>0</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin\596ac091-6579-4705-b113-a36cdee78d3a\CheckBufferCountAndHead.method">
+         <Id>596ac091-6579-4705-b113-a36cdee78d3a</Id>
+         <FolderType>MethodFolder</FolderType>
+         <ParentIndex>0</ParentIndex>
       </Folder>
    </ItemGroup>
    <ItemGroup>
@@ -305,6 +327,12 @@
       </CodeWorksheet>
       <CodeWorksheet Include="Logical Elements\FB_SensorProcessor.pou\CalcAvgAndMax.method\Code.st">
          <Id>9bbf180c-376d-47c0-a633-fd3a6ac7c015</Id>
+         <Extension>.st</Extension>
+         <Type>.st</Type>
+         <ParentIndex>2</ParentIndex>
+      </CodeWorksheet>
+      <CodeWorksheet Include="RecycleBin\596ac091-6579-4705-b113-a36cdee78d3a\CheckBufferCountAndHead.method\Code.st">
+         <Id>ce7fea58-58cc-41f9-8f79-f6ae69bc5664</Id>
          <Extension>.st</Extension>
          <Type>.st</Type>
          <ParentIndex>2</ParentIndex>
@@ -726,6 +754,16 @@
          <Extension>.var</Extension>
          <ParentIndex>1</ParentIndex>
       </VariableWorksheet>
+      <VariableWorksheet Include="RecycleBin\102ab0c0-4607-44cc-9ad7-04d738022bdf\ResetBufferCountAndHead.method\Variables.var">
+         <Id>5858412e-01cf-4947-b3c3-d3f51a60c65b</Id>
+         <Extension>.var</Extension>
+         <ParentIndex>1</ParentIndex>
+      </VariableWorksheet>
+      <VariableWorksheet Include="RecycleBin\596ac091-6579-4705-b113-a36cdee78d3a\CheckBufferCountAndHead.method\Variables.var">
+         <Id>0cc353e8-1777-420b-a018-15c081055c69</Id>
+         <Extension>.var</Extension>
+         <ParentIndex>1</ParentIndex>
+      </VariableWorksheet>
    </ItemGroup>
    <ItemGroup>
       <MetaLibrary Include="Hardware\CFG_E6E7139888194D3794336F149E6C82AE\ComponentTypes\Arp.Plc.Eclr.EclrComponent\Arp.Plc.Eclr.libmeta">
@@ -1051,6 +1089,16 @@
          <Extension>.meta</Extension>
          <ParentIndex>0</ParentIndex>
       </MetadataDocument>
+      <MetadataDocument Include="RecycleBin\102ab0c0-4607-44cc-9ad7-04d738022bdf\ResetBufferCountAndHead.method\Metadata.meta">
+         <Id>94c0dbad-ec33-446a-b498-59a0f573584b</Id>
+         <Extension>.meta</Extension>
+         <ParentIndex>0</ParentIndex>
+      </MetadataDocument>
+      <MetadataDocument Include="RecycleBin\596ac091-6579-4705-b113-a36cdee78d3a\CheckBufferCountAndHead.method\Metadata.meta">
+         <Id>4d9738fc-e26c-4733-a06d-4d9e48693357</Id>
+         <Extension>.meta</Extension>
+         <ParentIndex>0</ParentIndex>
+      </MetadataDocument>
    </ItemGroup>
    <ItemGroup>
       <SolutionReference Include="PLCnextBase_1_6_3">
@@ -1063,6 +1111,14 @@
    <ItemGroup>
       <RestoreDocument Include="RecycleBin\847eb216-fc14-4fcf-b9f4-4aa40fa55601\847eb216-fc14-4fcf-b9f4-4aa40fa55601">
          <Id>02e1135d-95e5-44b0-9e24-c84132a68f59</Id>
+         <ParentIndex>1</ParentIndex>
+      </RestoreDocument>
+      <RestoreDocument Include="RecycleBin\102ab0c0-4607-44cc-9ad7-04d738022bdf\102ab0c0-4607-44cc-9ad7-04d738022bdf">
+         <Id>bdfa3c75-2fe0-40df-a8cd-a4fd5a50c032</Id>
+         <ParentIndex>1</ParentIndex>
+      </RestoreDocument>
+      <RestoreDocument Include="RecycleBin\596ac091-6579-4705-b113-a36cdee78d3a\596ac091-6579-4705-b113-a36cdee78d3a">
+         <Id>b05d8e06-2775-41bd-9496-231f98f990d8</Id>
          <ParentIndex>1</ParentIndex>
       </RestoreDocument>
    </ItemGroup>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RestoreDataItem Version="1" DeletionDate="2026-04-09 12:05:52Z" DisplayName="ResetBufferCountAndHead">
+    <NodeData DomainId="e639c0f9-db09-46f4-abf7-50216a13f220" SolutionId="606e2993-1c57-411c-b0d2-c57a13c52bbf" NodeId="102ab0c0-4607-44cc-9ad7-04d738022bdf" ParentId="d55b55b0-0952-425d-a4f4-1b7fc788b0c6" PredecessorId="596ac091-6579-4705-b113-a36cdee78d3a" Position="14" Kind="Type" />
+</RestoreDataItem>
